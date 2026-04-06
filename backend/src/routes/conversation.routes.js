@@ -1,28 +1,3 @@
-
-// import express from 'express';
-// import {
-//     sendTextMessage
-// } from '../controllers/conversation.controller.js';
-
-// import { protect } from '../middleware/auth.middleware.js';
-// import upload from '../middleware/upload.middleware.js';
-
-// const router = express.Router();
-
-// router.use(protect);
-
-// // router.post('/start', startConversation);
-// // router.get('/', getUserConversations);
-// // router.get('/:conversationId/messages', getConversationMessages);
-// router.post('/message/text', sendTextMessage);
-// // router.post('/message/voice', upload.single('audio'), sendVoiceMessage);
-// // router.delete('/:conversationId', deleteConversation);
-
-// export default router;
-
-
-
-
 import express from 'express';
 import {
     deleteConversation,
